@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
+body {
+  background-color: #343a40;
+  color: #f8f9fa;
+  font-family: "Lato", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.navbar-brand span {
+  font-weight: bold;
+}
+
+/* Contenido principal */
+.main-image {
+  max-width: 50%;
+  height: auto;
+}
+
+/* Footer */
+.footer-logo {
+  margin-right: 1rem;
+}
+
+.footer a {
+  transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  color: #6c757d !important;
+}
+
+@media (max-width: 767.98px) {
+  .footer .list-unstyled {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
