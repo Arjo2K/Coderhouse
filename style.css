@@ -1,0 +1,13 @@
+body {
+  background-color: green;
+  color: aliceblue;
+  font-size: large;
+  margin: 15px;
+  flex-grow: 1;
+}
+
+header {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

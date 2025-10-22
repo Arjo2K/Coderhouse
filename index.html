@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Schmeckt Gut</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-dark text-white">
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="imagenes/Logo.jpg" alt="Logo" class="rounded-circle border border-black me-2" width="60"
+                        height="50">
+                    <span>Schmeckt Gut</span>
+                </a>
+
+                <!-- Navbar desplegable -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Enlaces de navegación -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/info.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/cervezas.html">Cervezas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="flex-grow-1">  
+        <!-- Sección de imagen -->
+        <section class="text-white my-4 container col-12 col-md-6">
+             <div class="d-flex flex-column align-items-center">
+                <img src="imagenes/cerveza-casera-3.jpg" class="rounded mb-2 w-50" alt="produccion-cerveza">
+                <p class="text-center">
+                    Proceso de elaboración y cervezas terminadas
+                </p>
+        </section>
+
+        <!-- Sección de mapa -->
+        <section class="container col-12 col-md6 text-white text-start">
+            <div class=" col-12 col-md-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d64816.18665504056!2d-65.05354!3d-31.950210000000002!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDU3JzAwLjgiUyA2NcKwMDMnMTIuNyJX!5e1!3m2!1ses-419!2sar!4v1759702916163!5m2!1ses-419!2sar"
+                    width="1000" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <h4 class="mb-3">Nos ubicamos en...</h4>
+        </section>
+
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-white text-dark py-0 mt-5">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <!-- Logo footer -->
+            <div class="d-flex align-items-center col-12 col-md-4 mb-3 mb-md-0">
+                <img src="imagenes/Logo.jpg" alt="Logo Schmeckt Gut" class="mr-2" width="100" height="85">
+                <span>Schmeckt Gut</span>
+            </div>
+
+            <!-- Derechos reservados -->
+            <div>
+                <p class="col-12 col-md-4 text-center mb-3 mb-md-0 text-nowrap">© Todos los derechos reservados</p>
+            </div>
+
+            <!-- Redes sociales -->
+            <div>
+                <ul class="list-unstyled d-flex flex-column mb-0 col-12 col-md-4">
+                    <li class="fw-bold mb-1">Social Media</li>
+                    <li><a href="#" class="text-reset text-decoration-none">Instagram</a></li>
+                    <li><a href="#" class="text-reset text-decoration-none">Facebook</a></li>
+                    <li><a href="#" class="text-reset text-decoration-none">Whatsapp</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

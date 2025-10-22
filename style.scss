@@ -1,0 +1,16 @@
+$primary-color: green;
+$size-font: large;
+$separador-card: 15px;
+
+body {
+    background-color: $primary-color;
+    color: aliceblue;
+    font-size: $size-font;
+    margin: $separador-card;
+    flex-grow: 1;
+
+
+}
+header {
+width: 100%;
+}
